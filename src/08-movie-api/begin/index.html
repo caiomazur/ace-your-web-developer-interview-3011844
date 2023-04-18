@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Movie API</title>
-    <link rel="stylesheet" href="./begin.css" />
+    <title>Movie App</title>
+    <link rel="stylesheet" href="begin.css">
   </head>
   <body>
+    <h1>Movie App</h1>
     <div id="poster-container"></div>
-    <script src="./begin.js"></script>
+    <!-- This includes the Axios library in the HTML document. Axios is used to make HTTP requests to the IMDb API. -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!--  This includes the "begin.js" JavaScript file in the HTML document. 
+      This file contains the code that fetches data from the IMDb API and displays the movie posters on the page. 
+      The "type" attribute is set to "module" to indicate that this is a JavaScript module. -->
+    <script type="module" src="./begin.js"></script>
   </body>
 </html>
